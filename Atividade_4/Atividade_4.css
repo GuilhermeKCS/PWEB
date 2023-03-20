@@ -1,0 +1,44 @@
+body{
+    background-image: url("figura-triangular-geometrica-legal-em-uma-luz-de-laser-neon-otima-para-fundos-e-papeis-de-parede.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; /* ajusta a imagem para preencher todo o tamanho da área de fundo, sem distorções */
+    background-size: contain;/* /* ajusta a imagem para caber dentro do tamanho da área de fundo, sem cortes */
+    background-size: 100% 100%; /* define o tamanho da imagem para 100% do tamanho da área de fundo */
+    background-position: center; /* centraliza a imagem na horizontal e vertical */
+    background-position: top left; /* posiciona a imagem no canto superior esquerdo */
+    background-position: 50% 30%; /* posiciona a imagem na posição x=50% e y=30% */
+
+
+
+    }
+
+
+    #titulo1{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        color: whitesmoke;
+    }
+
+    .RAIBOWSIXSIEGE {
+        float: center;
+    }
+
+    h2,p {
+        color: whitesmoke;
+    }
+
+    
+
+    nav ul li  {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        list-style: none;
+
+    }
+    nav ul li a {
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    
