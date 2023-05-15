@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Atividade15.css">
+    <title>Seleção de Curso</title>
+    <script>
+        function abrirJanela() {
+            var select = document.getElementById("cursos");
+            
+            var cursoSelecionado = select.options[select.selectedIndex].text;
+            var confirmacao = confirm("Deseja abrir a janela com o curso: " + cursoSelecionado + "?");
+
+            if (select.value==1) {
+                var url = "https://www.vestibularfatec.com.br/unidades-cursos/curso.asp?c=194"; // Substitua pela URL correta da página com informações sobre o curso
+                var janela = window.open(url, "_blank", "width=600,height=300");
+            }
+            if (select.value==2) {
+                var url = "https://www.vestibularfatec.com.br/unidades-cursos/curso.asp?c=97"; // Substitua pela URL correta da página com informações sobre o curso
+                var janela = window.open(url, "_blank", "width=600,height=300");
+                
+            }
+            if (select.value==3) {
+                var url = "https://www.vestibularfatec.com.br/unidades-cursos/curso.asp?c=197"; // Substitua pela URL correta da página com informações sobre o curso
+                var janela = window.open(url, "_blank", "width=600,height=300");
+                
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Selecione um Curso</h1>
+    <select id="cursos" onchange="abrirJanela()">
+        <option value="">Selecione um curso</option>
+        <option value="1">Análise e Desenvolvimento de Sistemas</option>
+        <option value="2">Gestão da Tecnologia da Informação</option>
+        <option value="3">Sistemas para Internet</option>
+        
+    </select>
+</body>
+</html>
